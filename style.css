@@ -1,0 +1,382 @@
+.index-body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ------------------------------------------INDEX PAGE-------------------------------------------- */
+
+.Main-box{
+    width: 450px;
+    background-color:rgb(200, 253, 253);
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+}
+
+.index-body h1{
+    text-align: center;
+}
+/* --------------------------------------------CARD 1--------------------------------------------- */
+.card-body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(238, 236, 236);
+}
+
+.card1-box{
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    margin: 100px auto;
+    
+    padding: 20px 20px 40px 20px;
+    text-align: center;
+}
+
+.code{
+    margin-top: -10px;
+    color: gray;
+    margin-bottom: 32px;
+}
+
+.mail{
+    color: black;
+}
+
+.purple-girl{
+    width: 100%;
+    height: 280px;
+
+}
+
+.card1-digit-input{
+    width: 250px;
+    padding: 12px;
+    border: solid 2px #861ee8;
+    border-radius: 8px;
+
+}
+
+.card1-btn{
+    width: 274px;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    background-color: #861ee8;
+    color: #ffffff;
+    font-size: 15px;
+} 
+
+
+/* ------------------------------------CARD 2-------------------------------------------- */
+.card2-box{
+    width: 300px;
+    background-color: #ffffff;
+    margin: 230px auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 12px;
+
+}
+
+.container{
+    margin-top: -15px;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+
+.wave-emote{
+    margin-top: 30px;
+    margin-bottom: -20px;
+    width: 30px;
+}
+
+
+.card2-message{
+    color: rgb(114, 114, 114);
+    margin-top: -19px;
+}
+
+.card2-btn1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: none;
+    background-color: white;
+    text-align: left;
+    border-radius: 5px;
+    
+}
+
+.work, .home{
+    display: flex;
+}
+
+.card2-btn1 p{
+    margin-left: 10px;
+}
+
+
+.card2-btn1:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.card2-btn2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: none;
+    background-color: white;
+    text-align: left;
+    border-radius: 5px;
+    margin-top: -15px;
+}
+
+.bi-arrow-right{
+   display: block;
+   margin-top: 10px;
+   margin-right: 7px;
+   color: rgb(155, 155, 155);
+   
+}
+
+.card2-btn2 p{
+    margin-left: 10px;
+}
+
+
+.card2-btn2:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+
+/* ------------------------------------CARD 3-------------------------------------------- */
+.card3-box{
+    width: 350px;
+    background-color: #ffffff;
+    margin: 230px auto;
+    padding: 40px;
+    text-align: center;
+    border-radius: 12px; 
+}
+
+.phone-emoji{
+    width: 40px;
+    margin-bottom: -18px;
+}
+
+.card3-text{
+    color: rgb(76, 73, 73);
+}
+
+.card3-btn1{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    border: none;
+    background-color: white;
+    text-align: left;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: -20px;
+    
+}
+
+.gift, .arrow{
+    display: flex;
+}
+
+.card3-btn1 p{
+    margin-left: 10px;
+}
+
+
+.card3-btn1:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.card3-btn2{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    border: none;
+    background-color: white;
+    text-align: left;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.bi-arrow-right{
+   display: block;
+   margin-top: 10px;
+   margin-right: 7px;
+   color: rgb(155, 155, 155);
+   
+}
+
+.card3-btn2 p{
+    margin-left: 7px;
+}
+
+
+.card3-btn2:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.right-arrow{
+    width: 27px;
+    height: 40px;
+    margin-left: -3px;
+    margin-top: 4px;
+}
+
+.card3-para{
+    color: gray;
+}
+
+
+/* --------------------------------------------CARD 4--------------------------------------------- */
+.card-body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(238, 236, 236);
+}
+
+.card4-box{
+    width: 320px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    margin: 170px auto;
+    padding: 15px 50px 20px 50px;
+    text-align: center;
+}
+
+.code{
+    margin-top: -10px;
+    color: gray;
+    margin-bottom: 32px;
+}
+
+.creditcard{
+    color: black;
+}
+
+.credit-card-img{
+    width: 53px;
+    margin-bottom: -40px;
+}
+
+.bi-credit-card{
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 14px;
+
+}
+
+.card4-card-number{
+    width: 91%;
+    padding: 13px;
+    border: solid 2px #861ee8;
+    border-radius: 8px;
+
+}
+
+.card4-btn{
+    position: relative;
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    background-color: #861ee8;
+    color: #ffffff;
+    font-size: 15px;
+} 
+
+.card4-footer p{
+    color: rgb(129, 129, 129);
+    font-size: 14px;
+}
+
+.card4-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secure-img{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+/* -----------------------------------------------CARD 5------------------------------------------------ */
+
+.card-body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(238, 236, 236);
+}
+
+.card5-box{
+    width: 320px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    margin: 100px auto;
+    
+    padding: 20px 20px 40px 20px;
+    text-align: center;
+}
+
+.office{
+    display: block;
+    margin-bottom: -15px;
+}
+
+.company-text{
+    margin-top: -10px;
+    color: gray;
+    margin-bottom: 32px;
+}
+
+.company-name{
+    display: block;
+    margin-top: -10px;
+    margin-left: 10px;
+    width: 250px;
+    padding: 12px;
+    border: solid 2px rgb(203, 202, 202);
+    border-radius: 8px;
+}
+
+.company-label{
+    display: block;
+    text-align: left;
+    margin-left: 13px;
+    margin-bottom: -5px;
+    font-size: 14px;
+    color: rgb(100, 100, 100)
+}
+
+.company-select{
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    width: 280px;
+    padding: 12px;
+    border: solid 2px rgb(203, 202, 202);
+    border-radius: 8px;
+}
+
