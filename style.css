@@ -249,6 +249,7 @@
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgb(238, 236, 236);
+    position: relative;
 }
 
 .card4-box{
@@ -270,25 +271,41 @@
     color: black;
 }
 
-.credit-card-img{
-    width: 53px;
-    margin-bottom: -40px;
-}
-
-.bi-credit-card{
-    position: absolute;
-    margin-left: 12px;
-    margin-top: 14px;
-
-}
-
-.card4-card-number{
-    width: 91%;
-    padding: 13px;
-    border: solid 2px #861ee8;
+.credit-card-box{
+    width: 320px;
+    background-color:white;
+    height: 50px;
     border-radius: 8px;
 
 }
+
+.credit-card-img{
+    position: absolute;
+    width: 53px;
+    top: -15px;
+    left: 730px;
+}
+
+.card-icon{
+    position: absolute;
+    top: 200px;
+    left: 617px;
+}
+
+
+.card4-card-number{
+    width: 260px;
+    margin-top: 10px;
+    padding: 6px;
+    border: none;
+}
+
+.card-num > input{
+    outline: none;
+    border: none; 
+}
+
+
 
 .card4-btn{
     position: relative;
